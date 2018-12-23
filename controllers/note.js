@@ -18,7 +18,7 @@ module.exports = function (app) {
       // ..and populate all of the notes associated with it
       .populate("note")
       // now, execute our query
-      .exec(function (error, doc) {
+      .then(function (error, doc) {
         // Log any errors
         if (error) {
           console.log(error);
@@ -59,7 +59,7 @@ module.exports = function (app) {
             }
           })
           // Execute the above query
-          .exec(function (err) {
+          .then(function (err) {
             // Log any errors
             if (err) {
               console.log(err);
@@ -93,7 +93,7 @@ module.exports = function (app) {
             }
           })
           // Execute the above query
-          .exec(function (err) {
+          .then(function (err) {
             // Log any errors
             if (err) {
               console.log(err);

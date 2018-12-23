@@ -62,7 +62,7 @@ module.exports = function (app) {
         new: true
       })
       // Execute the above query
-      .exec(function (err, doc) {
+      .then(function (err, doc) {
         // Log any errors
         if (err) {
           console.log(err);
@@ -85,7 +85,7 @@ module.exports = function (app) {
         "notes": []
       })
       // Execute the above query
-      .exec(function (err, doc) {
+      .then(function (err, doc) {
         // Log any errors
         if (err) {
           console.log(err);
