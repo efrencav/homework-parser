@@ -2,7 +2,6 @@
   "name": "mongoscraper-npr",
   "version": "1.0.0",
   "description": "NPR web scraper application",
-  "start": "server.js",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
