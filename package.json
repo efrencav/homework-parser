@@ -1,7 +1,8 @@
 {
   "name": "mongoscraper-npr",
   "version": "1.0.0",
-  "description": "NPR web scraper application",
+  "description": "Homework assignment to parse and add to MongoDB.",
+  "main": "server.js",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
@@ -11,26 +12,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/efrencav/mongoscraper-npr.git"
   },
-  "keywords": [
-    "NPR",
-    "application"
-  ],
   "author": "Efren Cavazos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/efrencav/mongoscraper-npr/issues"
   },
-  "engines": {
-    "node": "11.5.0",
-    "npm":  "2.2.x"
-  },
-  "homepage": "https://github.com/efrencav/mongoscraper-npr#readme",
-  "main": "server.js"
+  "homepage": "https://github.com/efrencav/mongoscraper-npr#readme"
 }
