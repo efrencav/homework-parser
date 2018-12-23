@@ -1,0 +1,25 @@
+
+.jumbotron{
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+.deleteNote {
+display: inline-block;
+}
+
+#scrape {
+  margin: 8px 0px;
+}
+
+body {
+  background-color: black;
+  padding-top: 70px;
+}
+
+.previousNotes {
+  display: inline-block;
+  width: 90%
+}
