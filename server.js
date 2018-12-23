@@ -29,7 +29,7 @@ partialsDir: __dirname+ "/views/layouts/partials"
 app.set("view engine", "handlebars");
 
 // Connect to the Mongo DB
-// var MONGODB_URI = process.env.MONGODB_URI;
+var MONGODB_URI = process.env.MONGODB_URI;
 
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds243084.mlab.com:43084/mongonewsscraper');
@@ -37,10 +37,10 @@ mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds243084.mlab.com:43084/mongon
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
 // Connect to the Mongo DB
-// mongoose.Promise = Promise;
-// mongoose.connect(MONGODB_URI || "mongodb://localhost/mongoNewsscraper", {
-  // useMongoClient: true
-// });
+mongoose.Promise = Promise;
+mongoose.connect(MONGODB_URI || "mongodb://localhost/mongoNewsscraper", {
+  useMongoClient: true
+});
 
 
 // Start the server
