@@ -1,0 +1,33 @@
+{
+  "name": "mongoscraper-npr",
+  "version": "1.0.0",
+  "description": "NPR web scraper application",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efrencav/mongoscraper-npr.git"
+  },
+  "keywords": [
+    "NPR",
+    "application"
+  ],
+  "author": "Efren Cavazos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efrencav/mongoscraper-npr/issues"
+  },
+  "engines": {
+    "node": "11.5.0"
+  },
+  "homepage": "https://github.com/efrencav/mongoscraper-npr#readme"
+}
