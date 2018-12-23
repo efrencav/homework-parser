@@ -31,5 +31,6 @@
   "engines": {
     "node": "11.5.0"
   },
-  "homepage": "https://github.com/efrencav/mongoscraper-npr#readme"
+  "homepage": "https://github.com/efrencav/mongoscraper-npr#readme",
+  "main": "server.js"
 }
