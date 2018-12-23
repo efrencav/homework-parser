@@ -5,7 +5,7 @@ var db = require("../models");
 var express = require("express");
 
 //Require mongojs
-var mongoose = require("mongoose");
+// var mongoose = require("mongoose");
 
 //Scraping tools
 var cheerio = require("cheerio");

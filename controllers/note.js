@@ -5,7 +5,7 @@ var db = require("../models");
 var express = require("express");
 
 //Require mongojs
-var mongojs = require("mongoose");
+// var mongojs = require("mongoose");
 
 module.exports = function (app) {
 
