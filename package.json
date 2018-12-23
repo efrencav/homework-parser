@@ -28,7 +28,8 @@
     "url": "https://github.com/efrencav/mongoscraper-npr/issues"
   },
   "engines": {
-    "node": "11.5.0"
+    "node": "11.5.0",
+    "npm":  "2.2.x"
   },
   "homepage": "https://github.com/efrencav/mongoscraper-npr#readme",
   "main": "server.js"
