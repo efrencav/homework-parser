@@ -29,7 +29,7 @@ partialsDir: __dirname+ "/views/layouts/partials"
 app.set("view engine", "handlebars");
 
 // Connect to the Mongo DB
-var MONGODB_URI = process.env.MONGODB_URI;
+// var MONGODB_URI = process.env.MONGODB_URI;
 
 // var mongoose = require('mongoose');
 mongoose.connect('mongodb://heroku_ld507b4d:8eqn3jlt1i780jojnfse8g0njr@ds115035.mlab.com:15035/heroku_ld507b4d');
