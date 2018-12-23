@@ -37,10 +37,10 @@ mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds243084.mlab.com:43084/mongon
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
 // Connect to the Mongo DB
-mongoose.Promise = Promise;
-mongoose.connect(MONGODB_URI || "mongodb://localhost/mongoNewsscraper", {
+// mongoose.Promise = Promise;
+// mongoose.connect(MONGODB_URI || "mongodb://localhost/mongoNewsscraper", {
   // useMongoClient: true
-});
+// });
 
 
 // Start the server
